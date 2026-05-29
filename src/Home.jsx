@@ -61,7 +61,7 @@ const Home = () => {
 
         <div className="absolute right-[-10%] top-1/2 -translate-y-1/2 w-[60%] opacity-30 lg:opacity-100 pointer-events-none">
           <img 
-            src="/Jabra evolve professionnel.jpg" 
+            src={`${import.meta.env.BASE_URL}Jabra evolve professionnel.jpg`} 
             alt="Jabra Headset" 
             className="w-full h-auto drop-shadow-[0_0_80px_rgba(37,99,235,0.4)] animate-float"
           />

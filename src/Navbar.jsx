@@ -20,7 +20,7 @@ const Navbar = ({ onLogout, user }) => {
       <div className="max-w-[1600px] mx-auto w-full flex justify-between items-center">
         <div className="flex items-center gap-4 cursor-pointer" onClick={() => navigate('/accueil')}>
           <img
-            src="/logo foundevr.png"
+            src={`${import.meta.env.BASE_URL}logo foundevr.png`}
             alt="Logo"
             className="w-12 h-12 object-contain drop-shadow-[0_0_8px_rgba(37,99,235,0.3)]"
           />

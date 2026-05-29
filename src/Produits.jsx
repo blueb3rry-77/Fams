@@ -9,7 +9,7 @@ const Produits = () => {
       id: 1,
       name: "Jabra Evolve 65",
       type: "Sans-fil (Bluetooth)",
-      image: "/Casque Jabra evolve 65.png",
+      image: `${import.meta.env.BASE_URL}Casque Jabra evolve 65.png`,
       features: ["Double connectivité", "Autonomie 14h", "Témoin lumineux (Busylight)"],
       sn_example: "SN-FTX-001238",
       status: "En stock"
@@ -18,7 +18,7 @@ const Produits = () => {
       id: 2,
       name: "Jabra Biz 2300",
       type: "Filaire (USB)",
-      image: "/Jabra biz 2300.jpg",
+      image: `${import.meta.env.BASE_URL}Jabra biz 2300.jpg`,
       features: ["Microphone anti-bruit", "Bras pivotant 360°", "Confort ultra-léger"],
       sn_example: "SN-ELT-009872",
       status: "Disponible"

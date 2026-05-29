@@ -53,7 +53,7 @@ const Login = ({ onLogin }) => {
       <div className="flex flex-col md:flex-row bg-white rounded-[2rem] shadow-2xl overflow-hidden max-w-5xl w-full min-h-[550px]">
         <div className="w-full md:w-1/2 relative bg-gray-200">
           <img
-            src="/Agent.png"
+            src={`${import.meta.env.BASE_URL}Agent.png`}
             alt="Foundever Tech"
             className="absolute inset-0 w-full h-full object-cover"
           />
@@ -67,7 +67,7 @@ const Login = ({ onLogin }) => {
         <div className="w-full md:w-1/2 p-8 md:p-14 flex flex-col justify-center">
           <div className="text-center mb-10 flex flex-col items-center">
             <div className="flex flex-row items-center justify-center gap-3 mb-2">
-              <img src="/logo.png" alt="logo" className="w-10 h-10 object-contain" />
+              <img src={`${import.meta.env.BASE_URL}logo.png`} alt="logo" className="w-10 h-10 object-contain" />
               <h1 className="text-4xl font-black italic text-[#1650cd] tracking-tighter">FAMS</h1>
             </div>
             <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest leading-tight">
